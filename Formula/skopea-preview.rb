@@ -2,28 +2,28 @@
 class SkopeaPreview < Formula
   desc "Terminal client (CLI and TUI) for the Skopea infrastructure dashboard, preview channel"
   homepage "https://skopea.io"
-  version "0.1.0-preview.4"
+  version "0.1.0-preview.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://github.com/KamorionLabs/skopea-cli/releases/download/v#{version}/skopea-darwin-arm64"
-      sha256 "85c47f4b641a070a46fcb85cb9ddf2df6a8dbfa3050931046d371e6108b0c9bf"
+      sha256 "0506e6a2ea11154be46d85a27b6a04245bde2d6a2856a4d2573c4e9b4e29b166"
     end
     on_intel do
       url "https://github.com/KamorionLabs/skopea-cli/releases/download/v#{version}/skopea-darwin-x64"
-      sha256 "82da1b237105e7f28bdb9047710545ee3fb0517224b64d998c3bbefd488db493"
+      sha256 "15e73f1047128883cf62b192a2e63d0f1d0f8375ae7eae7c3767f54ea980fe98"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/KamorionLabs/skopea-cli/releases/download/v#{version}/skopea-linux-arm64"
-      sha256 "97d08e0619ffda98baa33051d14dc7976e9ced31d982a5a5231c81c837fbbd16"
+      sha256 "20ef845fe710b7a8c3d0d22ec9baf545fdd6e3b9cfc715e9d0fd9b9379646c57"
     end
     on_intel do
       url "https://github.com/KamorionLabs/skopea-cli/releases/download/v#{version}/skopea-linux-x64"
-      sha256 "b4858f4c267f592d8761be01cadab672c6b29f3b89aa0ff4dfddd2b185816069"
+      sha256 "05e2bef6ec3d0cd6051063e24f1d2d71ec45e3663f94ccfe40a7d22373963979"
     end
   end
 
